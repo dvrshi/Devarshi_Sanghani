@@ -19,6 +19,9 @@
 .desc{
     font-size: 25px;
 }
+.myFont {
+  font-size: 60px; /* Example increased font size */
+}
 .fname{
     font-size: 75px;
     font-weight: bold;
