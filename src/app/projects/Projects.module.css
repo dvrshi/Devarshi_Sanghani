@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.p1 {
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.data{
+    margin-top: 80px;
+    padding: 50px 20px;
+    font-size: 20px;
+}
+.r1 {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}

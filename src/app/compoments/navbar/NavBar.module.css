@@ -1,0 +1,36 @@
+
+.container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .neonBlink{
+    font-size: 80px;
+    animation: neonBlink 1.5s infinite alternate;     
+    color: rgb(236, 103, 253);
+
+  }
+  .neonBlink::-moz-selection {
+    color: rgb(234, 0, 255);
+  }
+  
+  .neonBlink::selection {
+    
+    color: rgb(239, 66, 255);
+  }
+  @keyframes neonBlink {
+    
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      
+        text-shadow:
+            0 0 2rem rgb(234, 0, 255),
+            0 0 4rem rgb(234, 0, 255)
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+
+    }    
+  }
