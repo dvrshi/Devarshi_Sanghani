@@ -1,6 +1,5 @@
 import React from 'react'
 import Style from "./Projects.module.css";
-import Image from "next/image";
 import ProjectCard from "./ProjectCard";
 const project_data = [
   {
@@ -28,7 +27,12 @@ const project_data = [
     data management to build a functional car parking website.`,
     src: "/parking.jpg",
   },
-
+  {
+    title: "Widget Dashboard",
+    desc: `Used CSS Grid and Flexbox to design the front-end of the website. Added personalized
+    react charts and widgets to the dashboard.`,
+    src: "/widget.jpg",
+  },
 ]
 function Projects() {
   return (
